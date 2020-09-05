@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    animation: shakebody linear 6s infinite;
+}
+.sky{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.trees{
+    height: 100vh;
+    width: 100%;
+   
+    top: -144px; 
+}
+.track{
+    height: 60vh;
+    width: 800vw;
+    
+    top: 70vh;
+    
+}
+
+.car{
+    height: 100px;
+    width: 380px;
+    
+    left: 6px;
+    
+    bottom:30vh;
+   
+
+}
+
+
+.wheel1 img{
+    width: 77px;
+    position: relative;
+    top:42px;
+    left:42px;
+    
+}
+
+
+.wheel2 img{
+    width: 77px;
+    position: relative;
+    top: -39px;
+    left: 235px;
+    
+
+}
