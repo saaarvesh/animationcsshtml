@@ -1,4 +1,4 @@
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    if (!isChrome) {
-      $('#iframeAudio').remove()
-    }
+var audio = document.createElement('audio');
+audio.setAttribute('src', 'sound.mp3'); 
+audio.loop=true;
+ audio.play();
